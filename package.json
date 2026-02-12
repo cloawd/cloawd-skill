@@ -1,0 +1,17 @@
+{
+  "name": "cloawd-skill",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@mendable/firecrawl-js": "^4.12.1",
+    "clerc": "^1.3.0-beta.1",
+    "dotenv": "^17.3.0"
+  }
+}
